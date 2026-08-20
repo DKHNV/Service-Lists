@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "owner": "DKHNV",
   "services": [
     {
@@ -66,17 +66,6 @@
         "cidr": "Netflix_CIDR.txt",
         "routeros": "Netflix_RouterOS.rsc",
         "dns": "Netflix_DNS"
-      }
-    },
-    {
-      "key": "services",
-      "name": "Services",
-      "repo": "Services",
-      "description": "Общий набор сетей и доменов для дополнительных сервисов, не вынесенных в отдельные списки.",
-      "files": {
-        "cidr": "Services_CIDR.txt",
-        "routeros": "Services_RouterOS.rsc",
-        "dns": "Services_DNS"
       }
     }
   ]
