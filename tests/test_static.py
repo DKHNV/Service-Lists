@@ -13,10 +13,10 @@ class Tests(unittest.TestCase):
         cls.js = (SITE / "assets" / "app.js").read_text(encoding="utf-8")
         cls.readme = (ROOT / "README.md").read_text(encoding="utf-8")
 
-    def test_exact_six_public_services(self):
+    def test_exact_seven_public_services(self):
         self.assertEqual(
             [s["key"] for s in self.manifest["services"]],
-            ["youtube", "telegram", "meta", "chatgpt", "discord", "netflix"],
+            ["youtube", "telegram", "meta", "chatgpt", "claude", "discord", "netflix"],
         )
 
     def test_services_private_repo_not_exposed(self):
