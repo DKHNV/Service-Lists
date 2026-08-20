@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "owner": "DKHNV",
+  "services": [
+    {
+      "key": "youtube",
+      "name": "YouTube",
+      "repo": "YouTube",
+      "files": {
+        "cidr": "YouTube_CIDR.txt",
+        "routeros": "YouTube_RouterOS.rsc",
+        "dns": "YouTube_DNS"
+      }
+    },
+    {
+      "key": "telegram",
+      "name": "Telegram",
+      "repo": "Telegram",
+      "files": {
+        "cidr": "Telegram-CIDR.txt",
+        "routeros": "Telegram_RouterOS.rsc",
+        "dns": "Telegram_DNS"
+      }
+    },
+    {
+      "key": "meta",
+      "name": "Meta",
+      "repo": "Meta",
+      "files": {
+        "cidr": "Meta_CIDR.txt",
+        "routeros": "Meta_RouterOS.rsc",
+        "dns": "Meta_DNS"
+      }
+    },
+    {
+      "key": "chatgpt",
+      "name": "ChatGPT",
+      "repo": "ChatGPT",
+      "files": {
+        "cidr": "ChatGPT_CIDR.txt",
+        "routeros": "ChatGPT_RouterOS.rsc",
+        "dns": "ChatGPT_DNS"
+      }
+    },
+    {
+      "key": "discord",
+      "name": "Discord",
+      "repo": "Discord",
+      "files": {
+        "cidr": "Discord_CIDR",
+        "routeros": "Discord_RouterOS.rsc",
+        "dns": "Discord_DNS"
+      }
+    },
+    {
+      "key": "netflix",
+      "name": "Netflix",
+      "repo": "Netflix",
+      "files": {
+        "cidr": "Netflix_CIDR.txt",
+        "routeros": "Netflix_RouterOS.rsc",
+        "dns": "Netflix_DNS"
+      }
+    },
+    {
+      "key": "services",
+      "name": "Services",
+      "repo": "Services",
+      "files": {
+        "cidr": "Services_CIDR.txt",
+        "routeros": "Services_RouterOS.rsc",
+        "dns": "Services_DNS"
+      }
+    }
+  ]
+}
