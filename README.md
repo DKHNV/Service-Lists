@@ -12,7 +12,6 @@
 - ChatGPT
 - Discord
 - Netflix
-- Services
 
 Для каждого сервиса есть три варианта списка:
 
