@@ -1,11 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "owner": "DKHNV",
   "services": [
     {
       "key": "youtube",
       "name": "YouTube",
       "repo": "YouTube",
+      "description": "Списки сетей и доменов, связанных с YouTube и его инфраструктурой.",
       "files": {
         "cidr": "YouTube_CIDR.txt",
         "routeros": "YouTube_RouterOS.rsc",
@@ -16,6 +17,7 @@
       "key": "telegram",
       "name": "Telegram",
       "repo": "Telegram",
+      "description": "Списки сетей и доменов Telegram для использования в сетевых правилах и маршрутизации.",
       "files": {
         "cidr": "Telegram-CIDR.txt",
         "routeros": "Telegram_RouterOS.rsc",
@@ -26,6 +28,7 @@
       "key": "meta",
       "name": "Meta",
       "repo": "Meta",
+      "description": "Списки сетей и доменов сервисов Meta, включая связанную инфраструктуру.",
       "files": {
         "cidr": "Meta_CIDR.txt",
         "routeros": "Meta_RouterOS.rsc",
@@ -36,6 +39,7 @@
       "key": "chatgpt",
       "name": "ChatGPT",
       "repo": "ChatGPT",
+      "description": "Списки сетей и доменов ChatGPT и связанных сервисов OpenAI.",
       "files": {
         "cidr": "ChatGPT_CIDR.txt",
         "routeros": "ChatGPT_RouterOS.rsc",
@@ -46,6 +50,7 @@
       "key": "discord",
       "name": "Discord",
       "repo": "Discord",
+      "description": "Списки сетей и доменов Discord для сетевой фильтрации и маршрутизации.",
       "files": {
         "cidr": "Discord_CIDR",
         "routeros": "Discord_RouterOS.rsc",
@@ -56,6 +61,7 @@
       "key": "netflix",
       "name": "Netflix",
       "repo": "Netflix",
+      "description": "Списки сетей и доменов Netflix и используемой им инфраструктуры.",
       "files": {
         "cidr": "Netflix_CIDR.txt",
         "routeros": "Netflix_RouterOS.rsc",
@@ -66,6 +72,7 @@
       "key": "services",
       "name": "Services",
       "repo": "Services",
+      "description": "Общий набор сетей и доменов для дополнительных сервисов, не вынесенных в отдельные списки.",
       "files": {
         "cidr": "Services_CIDR.txt",
         "routeros": "Services_RouterOS.rsc",
