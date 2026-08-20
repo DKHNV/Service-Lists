@@ -47,6 +47,17 @@
       }
     },
     {
+      "key": "claude",
+      "name": "Claude",
+      "repo": "Claude",
+      "description": "Списки сетей и доменов Claude и связанной инфраструктуры Anthropic.",
+      "files": {
+        "cidr": "Claude_CIDR.txt",
+        "routeros": "Claude_RouterOS.rsc",
+        "dns": "Claude_DNS"
+      }
+    },
+    {
       "key": "discord",
       "name": "Discord",
       "repo": "Discord",
