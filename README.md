@@ -10,8 +10,11 @@
 - Telegram
 - Meta
 - ChatGPT
+- Claude
 - Discord
 - Netflix
+- X / Twitter
+- Grok
 
 Для каждого сервиса есть три варианта списка:
 
