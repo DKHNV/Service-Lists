@@ -19,7 +19,7 @@
       "repo": "Telegram",
       "description": "Списки сетей и доменов Telegram для использования в сетевых правилах и маршрутизации.",
       "files": {
-        "cidr": "Telegram-CIDR.txt",
+        "cidr": "Telegram_CIDR.txt",
         "routeros": "Telegram_RouterOS.rsc",
         "dns": "Telegram_DNS"
       }
@@ -63,7 +63,7 @@
       "repo": "Discord",
       "description": "Списки сетей и доменов Discord для сетевой фильтрации и маршрутизации.",
       "files": {
-        "cidr": "Discord_CIDR",
+        "cidr": "Discord_CIDR.txt",
         "routeros": "Discord_RouterOS.rsc",
         "dns": "Discord_DNS"
       }
