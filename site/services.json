@@ -78,6 +78,28 @@
         "routeros": "Netflix_RouterOS.rsc",
         "dns": "Netflix_DNS"
       }
+    },
+    {
+      "key": "x-twitter",
+      "name": "X / Twitter",
+      "repo": "X-Twitter",
+      "description": "Списки сетей и доменов X (Twitter), включая связанную медиа- и сервисную инфраструктуру.",
+      "files": {
+        "cidr": "X-Twitter_CIDR.txt",
+        "routeros": "X-Twitter_RouterOS.rsc",
+        "dns": "X-Twitter_DNS"
+      }
+    },
+    {
+      "key": "grok",
+      "name": "Grok",
+      "repo": "Grok",
+      "description": "Списки сетей и доменов Grok и связанной инфраструктуры xAI.",
+      "files": {
+        "cidr": "Grok_CIDR.txt",
+        "routeros": "Grok_RouterOS.rsc",
+        "dns": "Grok_DNS"
+      }
     }
   ]
 }
